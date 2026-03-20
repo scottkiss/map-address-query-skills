@@ -32,6 +32,12 @@ Then, use `./scripts/bin/qq-map-cli` (or `.\scripts\bin\qq-map-cli.exe` on Windo
 - Run the bundled CLI from the skill directory: `./scripts/bin/qq-map-cli <subcommand> ...` (or `.\scripts\bin\qq-map-cli.exe` on Windows).
 - Prefer `--json` when another script or workflow needs structured output.
 
+## How to get Tencent Location Service key
+- visit https://lbs.qq.com/dev/console/application/mine 
+- click "创建应用" button to create a new application
+- click "添加key" button to add a new key
+- copy the "Key" value to the `--key` flag
+
 ## Commands
 
 ### Geocode One Address
