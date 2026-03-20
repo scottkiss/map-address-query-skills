@@ -1,0 +1,15 @@
+# Downloaded binaries
+scripts/bin/
+
+# Potential local config files (to prevent committing API keys)
+qq_map_cli_config.json
+
+# Downloaded archives
+*.zip
+
+# OS generated files
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
