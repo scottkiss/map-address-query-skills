@@ -15,6 +15,13 @@ It enables AI agents and users to:
 - Measure travel distance and duration between two locations.
 - Calculate route distance matrices.
 
+### Quick Install Skill(Single Command)
+
+```bash
+npx skills add scottkiss/map-address-query-skills
+```
+
+
 ### Installation & Setup
 
 1. **Download the CLI tool:**
